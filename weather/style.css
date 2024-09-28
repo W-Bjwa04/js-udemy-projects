@@ -51,6 +51,7 @@ button:hover {
 
 
 #error-msg {
+    display: ;
     color: red;
     font-size: 14px;
 }
@@ -60,9 +61,7 @@ button:hover {
 }
 
 
-.error-hidden {
-    display: none;
-}
+
 
 
 
