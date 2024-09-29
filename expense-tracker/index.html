@@ -8,20 +8,23 @@
 </head>
 <body>
     <div class="container">
+
+        <div class="total-budget">
+            <input type="number" placeholder="Enter Total Budget" id="budget-amount" required>
+            <button id="add-total-budget">Add Budget</button>
+        </div>
+        <h2 id="available-budget"></h2>
         <form id="expense-form">
             <input type="text" name="expense-name" id="expense-name" required placeholder="Expense Name">
             <input type="number" name="expense-amount" id="expense-amount" required placeholder="Expense Amount">
-            <button type="submit" id="add-expense">Add Expense</button>
+            <button type="submit" class="add-expense">Add Expense</button>
         </form>
 
         <div class="expense-container">
             <ul class="exprese-list">
                 
             </ul>
-            <div class="total-cart-items">
-                <h2 class="total-items"></h2>
-            </div>
-            <div class="total-expense">
+            <div class="total-expense ">
                 <h2 class="total"></h2>
             </div>
         </div>
